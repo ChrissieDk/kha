@@ -1,13 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HeroSection from "./pages/HeroSection";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<HeroSection />} />
+          <Route path="/" element={<ComingSoon />} />
         </Routes>
       </Router>
     </>

@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "SFPro";
+  src: url("/fonts/SFPRODISPLAYBLACKITALIC.OTF") format("opentype");
+  font-weight: 900; /* Black weight */
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFPro";
+  src: url("/fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+  font-display: swap;
+}
