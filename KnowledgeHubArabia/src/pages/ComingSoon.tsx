@@ -1,4 +1,4 @@
-import React from "react";
+import Navbar from "../components/Navbar";
 import useTypingEffect from "../hooks/useTypingEffect";
 
 const ComingSoon = () => {
@@ -12,33 +12,15 @@ const ComingSoon = () => {
   return (
     <section className="relative min-h-screen bg-[#1E1E1E] text-white">
       {/* Top Bar - Fixed at top */}
-      <div className="absolute top-0 left-0 right-0 flex justify-between items-center py-4 md:py-8 px-4 sm:px-6 md:px-8">
-        {/* Logo */}
-        <div className="text-white text-lg font-black">kha.</div>
-
-        {/* Navigation */}
-        <div className="flex items-center space-x-2 text-sm md:text-md text-gray-400 font-bold">
-          <a
-            href="#payment"
-            className="text-xs sm:text-sm md:text-base hover:text-[#51a687] transition-colors"
-          >
-            About
-          </a>
-          <span className="text-xs sm:text-sm md:text-base">/</span>
-          <a
-            href="#services"
-            className="text-xs sm:text-sm md:text-base hover:text-[#51a687] transition-colors"
-          >
-            Services
-          </a>
-        </div>
+      <div className="absolute top-0 left-0 right-0 px-6 sm:px-12">
+        <Navbar />
       </div>
       {/* Main Content - Centered vertically and horizontally */}
-      <div className="flex items-center justify-center min-h-screen p-4">
+      <div className="flex items-center justify-center min-h-screen p-4 z-10">
         {/* Container with light background */}
-        <div className="bg-gray-200/5 backdrop-blur-lg rounded-2xl p-8 md:p-10 max-w-4xl w-full">
+        <div className="bg-gray-400/5 backdrop-blur-lg rounded-2xl p-8 md:p-10 max-w-4xl w-full">
           <div className="flex flex-col items-center text-center">
-            <h1 className="text-4xl font-bold sm:text-6xl md:text-8xl p-2 sm:p-3 md:p-4  mb-4 sm:mb-6 md:mb-6 bg-gradient-to-r from-[#51a687] via-blue-500 to-pink-500 bg-clip-text text-transparent">
+            <h1 className="text-4xl font-bold sm:text-6xl md:text-7xl p-2 sm:p-3 md:p-4  mb-4 sm:mb-6 md:mb-6 bg-gradient-to-r from-[#51a687] via-blue-500 to-pink-500 bg-clip-text text-transparent">
               Knowledge Hub
               <br />
               Arabia
@@ -77,13 +59,6 @@ const ComingSoon = () => {
             Privacy Policy
           </a>
           <div className="space-x-1 sm:space-x-2">
-            <a
-              href="#facebook"
-              className="hover:text-[#51a687] transition-colors"
-            >
-              Facebook
-            </a>
-            <span>/</span>
             <a
               href="#instagram"
               className="hover:text-[#51a687] transition-colors"
