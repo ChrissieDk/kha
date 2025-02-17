@@ -53,11 +53,11 @@ const ComingSoon = () => {
               </span>
             </p>
 
-            <div className="flex items-center max-w-md w-full">
+            <div className="flex items-center max-w-md w-full text-black">
               <input
                 type="email"
                 placeholder="Enter your email address"
-                className="flex-1 bg-gray-800 rounded-l-lg px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base focus:outline-none"
+                className="flex-1 bg-gray-400 rounded-l-lg px-3 sm:px-4 py-2 sm:py-3 text-sm sm:text-base focus:outline-none"
               />
               <button className="bg-white  text-black px-4 sm:px-6 py-2 sm:py-3 rounded-r-lg font-bold text-sm sm:text-base hover:text-white transition-colors hover:bg-[#51a687] transition-colors">
                 Notify Me
