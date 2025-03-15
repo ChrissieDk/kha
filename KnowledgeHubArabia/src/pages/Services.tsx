@@ -4,8 +4,8 @@ import {
   FaCalculator,
   FaFlask,
   FaBook,
-  FaLaptopCode,
-  FaGlobe,
+  // FaLaptopCode,
+  // FaGlobe,
 } from "react-icons/fa";
 
 const Services = () => {
