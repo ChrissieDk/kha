@@ -15,13 +15,13 @@ const Navbar = ({ className = "" }) => {
 
       {/* Navigation Links */}
       <div className="flex items-center space-x-2 text-sm md:text-md text-gray-400 font-bold">
-        <a
+        {/* <a
           href="/payment"
           className="text-xs sm:text-sm md:text-base hover:text-[#51a687] transition-colors"
         >
           About
         </a>
-        <span className="text-xs sm:text-sm md:text-base">/</span>
+        <span className="text-xs sm:text-sm md:text-base">/</span> */}
         <a
           href="/services"
           className="text-xs sm:text-sm md:text-base hover:text-[#51a687] transition-colors"

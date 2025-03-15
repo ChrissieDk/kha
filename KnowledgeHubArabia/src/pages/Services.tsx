@@ -53,13 +53,13 @@ const Services = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="text-center mt-12">
+      {/* <div className="text-center mt-12">
         <h2 className="text-3xl font-semibold">Ready to Get Started?</h2>
         <p className="text-gray-400 mt-2">
           Join our expert-led tutoring sessions today.
         </p>
 
-        {/* Centering the Input Field */}
+       
         <div className="flex items-center max-w-md w-full mx-auto text-black mt-4">
           <input
             type="email"
@@ -74,7 +74,7 @@ const Services = () => {
         <p className="text-gray-400 text-xs sm:text-sm mt-3 sm:mt-4 font-bold">
           - Notify me when App is launched -
         </p>
-      </div>
+      </div> */}
     </section>
   );
 };
